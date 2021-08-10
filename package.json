@@ -1,0 +1,53 @@
+{
+  "name": "frontend-starter-kit",
+  "title": "Sass Pug Starter Kit",
+  "description": "A basic boilerplate for frontend development, includes sass, pug and js tools as well as image optimization and svg minification. Based on SMACSS and BEM.",
+  "author": {
+    "name": "Pablo Peña",
+    "url": "https://github.com/pablopenia"
+  },
+  "version": "0.0.4",
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "pug",
+    "boilerplate",
+    "starter",
+    "gulp",
+    "smacss",
+    "javascript",
+    "BEM"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablopenia/frontend-starter-kit"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browserslist": "^4.16.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svgmin": "^4.0.1",
+    "gulp-svgstore": "^8.0.0",
+    "gulp-terser": "^2.0.1",
+    "postcss": "^8.3.6",
+    "postcss-normalize": "^10.0.0",
+    "sass": "^1.37.5"
+  }
+}
